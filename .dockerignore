@@ -1,0 +1,9 @@
+.config/
+.git
+.gitignore
+e2e
+node_modules
+*Dockerfile*
+*docker-compose*
+!README.md
+*.md

@@ -1,0 +1,39 @@
+@import '../../_vars.scss';
+
+.nav {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-row {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-row > * {
+  height: 100%;
+}
+.nav-link {
+  height: 100%;
+  color: whitesmoke;
+  font-size: 1.06rem;
+  text-decoration: none;
+  margin: 0px;
+  min-width: 0px;
+}
+
+// Logo and Name
+.nav-logo-icon {
+  // color: deeppink;
+  // margin: 0 0 0 1rem;
+}
+.nav-logo {
+  // padding-left: 1rem;
+}
+.nav-logo-text {
+  // font-family: $halflife;
+  // border: 1px solid red;
+}
+
+// Spacer after links which extends to the nav-login (if needed - TODO)
+.nav-spacer {
+  flex: 1 1 auto;
+}

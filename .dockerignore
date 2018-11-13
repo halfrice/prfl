@@ -1,6 +1,7 @@
 .config/
 .git
 .gitignore
+.npm/
 e2e
 node_modules
 *Dockerfile*

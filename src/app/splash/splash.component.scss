@@ -1,6 +1,6 @@
-.resume-wrapper {
+.splash-wrapper {
   position: relative;
-  background: no-repeat url("../../assets/images/d.va.jpg") 50% / 100%;
+  background: no-repeat url("../../assets/images/under_construction.jpg") 50% / 100%;
 
   img {
     vertical-align: top;
@@ -8,7 +8,7 @@
     opacity: 0;
   }
 
-  .resume-content {
+  .splash-content {
     position: absolute;
     top: 0;
     width: 100%;
@@ -23,7 +23,7 @@
   }
 }
 
-.dva {
+.splash {
   display: block;
   width: 100%;
 }

@@ -8,7 +8,7 @@ import { NgModule } from '@angular/core';
 // Components
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
+import { SplashComponent } from './splash/splash.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
@@ -21,7 +21,7 @@ import { ContactComponent } from './contact/contact.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent,
+    SplashComponent,
     ProjectsComponent,
     AboutComponent,
     ResumeComponent,

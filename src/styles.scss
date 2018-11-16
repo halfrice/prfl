@@ -1,12 +1,16 @@
 @import './_vars.scss';
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
-}
-@font-face {
   font-family: 'Half-Life';
   src: url('./assets/fonts/HalfLife.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RTRaleway';
+  src: url('./assets/fonts/RTRaleway-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 // CSS RESET

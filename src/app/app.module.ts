@@ -7,13 +7,25 @@ import { NgModule } from '@angular/core';
 
 // Components
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SplashComponent } from './splash/splash.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ContactComponent } from './contact/contact.component';
 
 // Services
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    SplashComponent,
+    ProjectsComponent,
+    AboutComponent,
+    ResumeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

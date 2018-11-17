@@ -1,0 +1,35 @@
+.contact-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background-color: #555;
+
+  .contact-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    h1 {
+      margin: 0.5rem;
+      font-size: 2rem;
+      color: whitesmoke;
+    }
+  }
+}
+
+.dummy-image {
+  display: block;
+  width: 1024px;
+  height: 768px;
+  background-color: #555;
+}
+
+.contact {
+  display: block;
+  min-height: 600px;
+  width: 100%;
+  background-color: #555;
+}

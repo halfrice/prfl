@@ -9,7 +9,7 @@ $app-light-theme: mat-light-theme($app-light-primary, $app-light-accent, $app-li
 
 @include angular-material-theme($app-light-theme);
 
-$app-dark-primary: mat-palette($mat-grey, 800);
+$app-dark-primary: mat-palette($mat-grey, 900);
 $app-dark-accent: mat-palette($mat-pink, A400, A200, 600);
 $app-dark-warn: mat-palette($mat-red);
 

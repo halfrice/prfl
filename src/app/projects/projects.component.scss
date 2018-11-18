@@ -1,12 +1,9 @@
 .projects-wrapper {
+  display: block;
   position: relative;
-  background: no-repeat url("../../assets/images/lambos.jpg") 50% / 100%;
-
-  img {
-    vertical-align: top;
-    width: 100%;
-    opacity: 0;
-  }
+  width: 100%;
+  min-height: 500px;
+  background-color: #444;
 
   .projects-content {
     position: absolute;

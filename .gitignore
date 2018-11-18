@@ -39,3 +39,6 @@ testem.log
 Thumbs.db
 .config/
 .npm/
+
+# Bash commands history from a Docker Container
+.ash_history 

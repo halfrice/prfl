@@ -1,10 +1,33 @@
-<div class="splash-wrapper">
-  <img src="./assets/images/under_construction.jpg" alt="Under Construction">
-  <div class="splash-content">
-    <h1>Splash</h1>
-  </div>
-</div>
-
-<!-- <div style="text-align:center">
-  <img class="splash" src="./assets/images/under_construction.jpg" alt="Under Construction">
-</div> -->
+<!-- <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'" data-pause="hover"> -->
+<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="./assets/images/under_construction.jpg" alt="First slide">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">PRFL</h3>
+            <p>A CI/CD Project</p>
+        </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="./assets/images/illuminati.jpg" alt="Second slide">
+            <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Software | DevOps</h3>
+            <p>Modern and Innovative - From Personal to Enterprise Solutions</p>
+        </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="./assets/images/lambos.jpg" alt="Third slide">
+            <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Design | Create</h3>
+            <p>Sexy and Adaptive Designs</p>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>

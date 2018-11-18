@@ -1,12 +1,9 @@
 .about-wrapper {
+  display: block;
   position: relative;
-  background: no-repeat url("../../assets/images/illuminati.jpg") 50% / 100%;
-
-  img {
-    vertical-align: top;
-    width: 100%;
-    opacity: 0;
-  }
+  width: 100%;
+  min-height: 500px;
+  background-color: lightblue;
 
   .about-content {
     position: absolute;
@@ -21,9 +18,4 @@
       color: whitesmoke;
     }
   }
-}
-
-.illuminati {
-  display: block;
-  width: 100%;
 }

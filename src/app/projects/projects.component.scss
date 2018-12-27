@@ -1,11 +1,16 @@
 .projects-wrapper {
-  border: 1px solid lightblue;
   display: block;
   position: relative;
   width: 100%;
   // min-height: 500px;
   background-color: #444;
 
+  .projects-title {
+    text-align: center;
+    max-height: 360;
+    max-width: 640;
+  }
+  
   .projects-content {
     // position: absolute;
     top: 0;
@@ -20,14 +25,30 @@
     }
 
     .project-item {
-
-      display: block;
-      width: 100%;
-      height: 200px;
-      padding: 0;
-      margin: 0;
+      // background-color: palevioletred;
+      // display: block;
+      // width: 100%;
+      // height: 200px;
+      // height: 100%;
+      // padding: 0;
+      // margin: 0;
     }
   }
+}
+
+.proj {
+}
+
+.pic {
+  // position: absolute;
+  // width: 100%;
+  // height: 100%;
+  object-fit: cover;
+}
+
+.pic-wrapper {
+  // position: relative;
+  // padding-bottom: 56.2%;
 }
 
 .lambo {

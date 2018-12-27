@@ -1,4 +1,5 @@
 // Modules
+import { AssetrModule } from './assetr/assetr.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -29,6 +30,7 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
+    AssetrModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
